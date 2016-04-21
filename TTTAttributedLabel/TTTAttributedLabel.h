@@ -455,15 +455,6 @@ afterInheritingLabelAttributesAndConfiguringWithBlock:(NSMutableAttributedString
  */
 - (TTTAttributedLabelLink *) linkAtPoint:(CGPoint)point;
 
-/**
- Returns the @c TTTAttributedLabelLink at the give point if it exists.
- 
- @discussion This can be used together with @c UIViewControllerPreviewingDelegate to peek into links.
- 
- @param point The point inside the label.
- */
-- (TTTAttributedLabelLink *)linkAtPoint:(CGPoint)point;
-
 @end
 
 /**
